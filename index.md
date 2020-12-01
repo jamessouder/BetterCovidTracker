@@ -4,11 +4,14 @@ The backend is an API for the BetterCovidTracker. It uses the most current Johns
 
 ### Running the API
 The API is written is python using the Flask framework. As a result the following are required:
+ - Python 3.x
+ - Flask 1.1.x
 
-env/bin/activate
-export FLASK_APP=flaskr
-export FLASK_APP=development
-flask run
+To run, Issue the following commands:
+- venv/bin/activate
+- export FLASK_APP=flaskr
+- export FLASK_APP=development
+- flask run
 
 The server will run on port 5000.
 
